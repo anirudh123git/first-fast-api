@@ -4,4 +4,4 @@ app=FastAPI()
 app.include_router(routes.router)
 @app.get("/")
 def read_root():
-    return {"Learning Fasapi"}
+    return {"Learning Fasapi hello"}
